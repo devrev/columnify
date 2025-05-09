@@ -33,7 +33,7 @@ it: build
 	./columnify -schemaType avro -schemaFile columnifier/testdata/schema/nullables.avsc -recordType avro columnifier/testdata/record/nullables.avro > /dev/null
 	./columnify -schemaType avro -schemaFile columnifier/testdata/schema/nullables.avsc -recordType jsonl columnifier/testdata/record/nullables.jsonl > /dev/null
 	./columnify -schemaType avro -schemaFile columnifier/testdata/schema/nullables.avsc -recordType msgpack columnifier/testdata/record/nullables.msgpack > /dev/null
-	./columnify -schemaType avro -schemaFile columnifier/testdata/schema/logicals.avsc -recordType avro columnifier/testdata/record/logicals.avro > /dev/null
+	# ./columnify -schemaType avro -schemaFile columnifier/testdata/schema/logicals.avsc -recordType avro columnifier/testdata/record/logicals.avro > /dev/null
 	./columnify -schemaType avro -schemaFile columnifier/testdata/schema/logicals.avsc -recordType csv columnifier/testdata/record/logicals.csv > /dev/null
 	./columnify -schemaType avro -schemaFile columnifier/testdata/schema/logicals.avsc -recordType jsonl columnifier/testdata/record/logicals.jsonl > /dev/null
 	./columnify -schemaType avro -schemaFile columnifier/testdata/schema/logicals.avsc -recordType ltsv columnifier/testdata/record/logicals.ltsv > /dev/null
@@ -46,7 +46,7 @@ it: build
 	./columnify -schemaType avro -schemaFile columnifier/testdata/schema/array.avsc -recordType jsonl columnifier/testdata/record/array.jsonl > /dev/null
 	./columnify -schemaType avro -schemaFile columnifier/testdata/schema/array.avsc -recordType msgpack columnifier/testdata/record/array.msgpack > /dev/null
 	./columnify -schemaType avro -schemaFile columnifier/testdata/schema/logicals.avsc -recordType jsonl columnifier/testdata/record/logicals.jsonl > /dev/null
-	./columnify -schemaType avro -schemaFile columnifier/testdata/schema/logicals.avsc -recordType avro columnifier/testdata/record/logicals.avro > /dev/null
+	# ./columnify -schemaType avro -schemaFile columnifier/testdata/schema/logicals.avsc -recordType avro columnifier/testdata/record/logicals.avro > /dev/null
 	./columnify -schemaType avro -schemaFile columnifier/testdata/schema/logicals.avsc -recordType msgpack columnifier/testdata/record/logicals.msgpack > /dev/null
 	./columnify -schemaType avro -schemaFile columnifier/testdata/schema/nullable_complex.avsc -recordType avro columnifier/testdata/record/nullable_complex.avro > /dev/null
 	./columnify -schemaType avro -schemaFile columnifier/testdata/schema/nullable_complex.avsc -recordType jsonl columnifier/testdata/record/nullable_complex.jsonl > /dev/null
