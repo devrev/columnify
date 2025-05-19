@@ -1,6 +1,8 @@
 module github.com/reproio/columnify
 
-go 1.23.0
+go 1.23.8
+
+toolchain go1.23.9
 
 require (
 	cloud.google.com/go/bigquery v1.67.0
