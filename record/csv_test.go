@@ -7,7 +7,7 @@ import (
 	"testing"
 
 	"github.com/apache/arrow/go/arrow"
-	"github.com/reproio/columnify/schema"
+	"github.com/devrev/columnify/schema"
 )
 
 func TestCsvInnerDecoder_Decode(t *testing.T) {

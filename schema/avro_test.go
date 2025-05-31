@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/reproio/columnify/avro"
+	"github.com/devrev/columnify/avro"
 
 	"github.com/apache/arrow/go/arrow"
 )
