@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/reproio/columnify/schema"
+	"github.com/devrev/columnify/schema"
 )
 
 const (

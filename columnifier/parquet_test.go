@@ -9,8 +9,8 @@ import (
 	"github.com/xitongsys/parquet-go-source/local"
 	"github.com/xitongsys/parquet-go/reader"
 
-	"github.com/reproio/columnify/record"
-	"github.com/reproio/columnify/schema"
+	"github.com/devrev/columnify/record"
+	"github.com/devrev/columnify/schema"
 	"github.com/xitongsys/parquet-go/parquet"
 )
 

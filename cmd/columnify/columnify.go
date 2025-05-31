@@ -6,7 +6,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/reproio/columnify/columnifier"
+	"github.com/devrev/columnify/columnifier"
 )
 
 func printUsage() {

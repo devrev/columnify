@@ -5,7 +5,7 @@ import (
 	"fmt"
 
 	"github.com/apache/arrow/go/arrow"
-	"github.com/reproio/columnify/avro"
+	"github.com/devrev/columnify/avro"
 )
 
 var (

@@ -6,10 +6,10 @@ import (
 
 	"github.com/xitongsys/parquet-go/marshal"
 
-	"github.com/reproio/columnify/record"
+	"github.com/devrev/columnify/record"
 
-	"github.com/reproio/columnify/parquet"
-	"github.com/reproio/columnify/schema"
+	"github.com/devrev/columnify/parquet"
+	"github.com/devrev/columnify/schema"
 	"github.com/xitongsys/parquet-go-source/local"
 	parquetSource "github.com/xitongsys/parquet-go/source"
 	"github.com/xitongsys/parquet-go/writer"
